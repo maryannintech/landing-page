@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #FFDB58;
+    padding: 0px 98px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fb8500;
+    text-shadow: 2px 2px #006a4e;
+}
+
+.title-page {
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    background-color: #82C566;
+}
+
+.header,
+.title-page {
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.left-texts .big-texts {
+    color: #c45a18;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.info-title,
+.big-texts,
+.logo,
+.big-texts,
+.quote {
+    font-family: 'Ultra', serif;
+}
+
+.title-page img {
+    width: 500px;
+    height: 500px;
+}
+
+.left-texts p {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.left-texts button {
+    background-color: #c45a18;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 16px;
+}
+
+.left-texts button:hover {
+    background-color: #006a4e;
+}
+
+.sign-up {
+    padding-top: 8px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.header a {
+    text-decoration-line: none;
+    color: black;
+    background-color: #82C566;
+    border-radius: 20px;
+    padding: 4px 16px;
+}
+
+.header a:hover {
+    background-color: #c45a18;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 60px;
+    background-color: #E0D65C;
+    color: #006a4e;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+    background-color: #E0D65C;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+    border: #006a4e solid;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #FFDB58;
+    padding: 50px;
+    text-align: center;
+    background-image: url(images/quote-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px 2px #006a4e;
+}
+
+.cta {
+    padding: 30px 100px;
+    background-color: #FAECA6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006a4e;
+    width: auto;
+    border-radius: 14px;
+    padding: 30px 100px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    justify-content: center;
+    padding-bottom: 8px;
+    align-content:  center;
+}
+
+.modal p {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+.cta button {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #006a4e;
+    color: white;
+    padding: 8px 16px;
+    border: 2px white solid;
+}
+
+.cta button:hover {
+    background-color: #c45a18;
+    color: white;
+}
+
+.cta-text {
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #82C566;
+    text-align: center;
+    color: black;
+    padding: 8px;
+}
